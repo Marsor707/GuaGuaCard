@@ -11,6 +11,7 @@
         android:id="@+id/guagua"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:gg_per="30" />
+        app:gg_per="30"
+        app:gg_src="@drawable/xixi" />
 
 </LinearLayout>

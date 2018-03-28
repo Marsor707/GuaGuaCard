@@ -2,7 +2,7 @@
 
 Android custom view
 
-## 使用方法 ##
+### 使用方法 ###
 
 在gradle根目录仓库加上 
 
@@ -36,7 +36,7 @@ compile 'com.github.marsor707:guaguacard:1.0.0'
 在布局文件中使用
 
 ```xml
-<!-- app:gg_per 表示大于这个百分比显示全部图片 -->
+<!-- app:gg_per 表示大于这个百分比显示全部图片 默认40% -->
 <!-- app:gg_src 表示刮掉后显示的图片 -->
 <com.github.marsor707.guaguacard.GuaGuaCard
         android:id="@+id/guagua"
@@ -59,3 +59,6 @@ guaGuaCard.setGuaGuaListener(new GuaGuaCard.GuaGuaListener() {
  });
         
 ```
+
+### 演示 ###
+![演示](./demo.gif)
