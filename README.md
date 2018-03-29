@@ -4,14 +4,6 @@ Android custom view
 
 ### 使用方法 ###
 
-在gradle根目录仓库加上 
-
-```groovy
-
-maven { url 'https://dl.bintray.com/marsor707/maven' }
-
-```
-
 在module的gradle依赖加上 
 
 ```groovy
@@ -20,7 +12,7 @@ compile 'com.github.marsor707:guaguacard:1.0.0'
 
 ```
 
-或者
+或者maven
 
 ```xml
 
